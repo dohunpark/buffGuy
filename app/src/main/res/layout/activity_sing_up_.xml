@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUp_Activity">
+
+    <TextView
+        android:id="@+id/TitleView"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/black"
+        android:text="회원 가입"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PassWordView"
+        android:layout_width="94dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="PW : "
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IDView" />
+
+    <TextView
+        android:id="@+id/IDView"
+        android:layout_width="95dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp"
+        android:text="ID : "
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleView" />
+
+    <EditText
+        android:id="@+id/IDEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/IDView"
+        app:layout_constraintTop_toBottomOf="@+id/TitleView" />
+
+    <EditText
+        android:id="@+id/PWEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PassWordView"
+        app:layout_constraintTop_toBottomOf="@+id/IDEdt" />
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="157dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/black"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/BackBtn"
+        android:layout_width="164dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/black"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/WarningView"
+        android:layout_width="344dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="100dp"
+        android:text="입력하신 아이디는 추후 비밀번호 찾기에 사용되오니 실제 이메일을 입력해주세요."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:text="아이디를 이메일 형식으로 입력해 주세요."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/WarningView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

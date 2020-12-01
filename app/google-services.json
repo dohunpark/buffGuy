@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783900969674",
+    "firebase_url": "https://buffguy-78e03.firebaseio.com",
+    "project_id": "buffguy-78e03",
+    "storage_bucket": "buffguy-78e03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783900969674:android:e2fc7f61e4c37df184c233",
+        "android_client_info": {
+          "package_name": "com.example.buff_guy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783900969674-gl3fnj8t13lulqkrm2uqrtjhk4q3ghsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buff_guy",
+            "certificate_hash": "5a48f10cd116c6125c262f29ef457cf69111f11b"
+          }
+        },
+        {
+          "client_id": "783900969674-fc8fohopfd6e7fv72vcnn4gc4h0fcq4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAorO1TX_65Ej_TqYq6j8vr5IuXvlc000w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783900969674-fc8fohopfd6e7fv72vcnn4gc4h0fcq4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

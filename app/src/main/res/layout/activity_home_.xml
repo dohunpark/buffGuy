@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <TextView
+        android:id="@+id/ClassNameVIew1st"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="초급"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/ClassSpinner1st"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ClassNameView2nd"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="중급"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/ClassSpinner2nd"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/MinNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="0"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/GoalView"
+        android:layout_width="318dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="운동목표설정"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KcalNumView" />
+
+    <Button
+        android:id="@+id/GoalBtn"
+        android:layout_width="307dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="목표 설정하기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/GoalView" />
+
+    <TextView
+        android:id="@+id/CountNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KcalNumView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toStartOf="@+id/MinNumView"
+        app:layout_constraintStart_toEndOf="@+id/CountNumView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ClassSpinner2nd"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="60dp"
+        android:entries="@array/운동"
+        app:layout_constraintBottom_toTopOf="@+id/RecordChk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/ClassSpinner1st"
+        android:entries="@array/운동"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/ClassSpinner2nd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ConutView"
+        android:layout_width="34dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="운동"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CountNumView" />
+
+    <TextView
+        android:id="@+id/MinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:text="분"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinNumView" />
+
+    <TextView
+        android:id="@+id/KcalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kcal"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toStartOf="@+id/MinView"
+        app:layout_constraintStart_toEndOf="@+id/ConutView"
+        app:layout_constraintTop_toBottomOf="@+id/KcalNumView" />
+
+    <Button
+        android:id="@+id/GoBtn1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Go"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toTopOf="@+id/ClassSpinner1st"
+        app:layout_constraintStart_toEndOf="@+id/ClassNameVIew1st" />
+
+    <Button
+        android:id="@+id/GoBtn2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Go"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toTopOf="@+id/ClassSpinner2nd"
+        app:layout_constraintStart_toEndOf="@+id/ClassNameView2nd" />
+
+    <Button
+        android:id="@+id/RecordChk"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="기록보기"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

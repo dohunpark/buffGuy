@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="운동">
+        <item>운동1</item>
+        <item>운동2</item>
+        <item>운동3</item>
+        <item>운동4</item>
+        <item>운동5</item>
+        <item>운동6</item>
+    </string-array>
+    <string-array name="기록">
+        <item>기록1</item>
+        <item>기록2</item>
+        <item>기록3</item>
+    </string-array>
+    <string-array name="복근초급">
+        <item>점핑 잭 - 20초</item>
+        <item>러시안 트위스트 - 20회</item>
+        <item>마운틴 클라이머 - 16회</item>
+        <item>레그 업 - 16회</item>
+        <item>플랭크 - 20초</item>
+        <item>러시안 트위스트 - 32회</item>
+        <item>마운틴 클라이머 - 12회</item>
+        <item>레그업 - 14회</item>
+    </string-array>
+    <string-array name="복급고급">
+        <item>점핑 잭 - 30초</item>
+        <item>러시안 트위스트 - 30회</item>
+        <item>마운틴 클라이머 - 20회</item>
+        <item>레그 업 - 20회</item>
+        <item>V크런치 - 16회</item>
+        <item>플랭크 - 40초</item>
+        <item>마운틴 클라이머 - 30회</item>
+        <item>다리교차(Scissors) - 20회</item>
+        <item>X맨 - 14회</item>
+        <item>레그 업 - 16회</item>
+    </string-array>
+    <string-array name="가슴고급">
+        <item>점핑 잭 - 30회</item>
+        <item>무릎 굽혀 푸시업 - 15회</item>
+        <item >푸시업 - 25회</item>
+        <item>와이드 푸시업 - 15회</item>
+        <item>힌두 푸시업 - 15회</item>
+        <item>푸시업 - 20회</item>
+        <item>와이드 푸시업 - 10회</item>
+        <item>힌두 푸시업 - 10회</item>
+        <item>푸시업 흔들기 - 10회</item>
+    </string-array>
+    <string-array name="가슴초급">
+        <item>점핑잭 - 30회</item>
+        <item>무릎 굽혀 푸시업 - 15회</item>
+        <item>푸시업 - 10회</item>
+        <item>와이드 푸시업 - 10회</item>
+        <item>무름굽혀 푸시업 - 10회</item>
+        <item>힌두 푸시업 - 8회</item>
+        <item>와이드 푸시업 - 10회</item>
+    </string-array>
+</resources>
